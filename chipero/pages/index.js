@@ -3,6 +3,8 @@ import Image from 'next/image'
 import Link from 'next/link'
 import styles from '../styles/Home.module.css'
 import NavBar from "../components/NavBar"
+import ImageSlider from "../components/ImageSlider"
+import { SliderData } from "../components/SliderData";
 
 export default function Home() {
   return (
@@ -14,7 +16,9 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <NavBar />
+        <NavBar/>
+        <ImageSlider slides={SliderData}/>
+        test
       </main>
     </div>
   )

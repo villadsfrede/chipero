@@ -1,17 +1,19 @@
 import React from "react";
 import { navLinks } from "../utils/data";
 import Link from "next/link";
+import styles from '../styles/Home.module.css'
+import Image from 'next/image'
 
 export default function Header() {
   return (
     <header>
       <div>
-        <h3>Example</h3>
+
       </div>
-      <nav>
+      <nav className={styles.navbar}>
         {navLinks.map((link, index) => {
           return (
-            <ul>
+            <ul key={index}>
               <Link href={link.path}>
                 <li key={index}>{link.name}</li>
               </Link>

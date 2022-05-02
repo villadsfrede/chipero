@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="10mm"
+   height="10mm"
+   viewBox="0 0 10 10"
+   version="1.1"
+   id="svg5"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs2" />
+  <g
+     id="layer1">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 0.5257851,9.2126693 H 7.4752924 L 9.5716261,1.3890452 H 1.8745382 Z"
+       id="path662" />
+    <path
+       style="fill:#ff0000;stroke:#ff0000;stroke-width:0.0864008"
+       d="M 2.6701986,34.06353 C 2.6969852,33.932849 3.7886054,27.605068 5.0960211,20.001794 6.403437,12.39852 7.4934413,6.0901791 7.5182532,5.983258 L 7.5633655,5.7888561 H 21.524699 c 11.133096,0 13.953117,0.021878 13.920776,0.1080011 -0.02231,0.059401 -1.746082,6.4746628 -3.830613,14.2561378 L 27.824808,34.301133 H 15.223151 2.6214956 Z"
+       id="path2219"
+       transform="scale(0.26458333)" />
+    <ellipse
+       style="fill:#ffdd55;stroke:#ffdd55;stroke-width:0.28406;stroke-opacity:1"
+       id="path4560"
+       cx="4.8692269"
+       cy="5.3492918"
+       rx="4.3108435"
+       ry="2.6420472" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.02635px;line-height:1.25;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.253293"
+       x="1.1804485"
+       y="5.6681523"
+       id="text11002"
+       transform="scale(0.95732926,1.0445727)"><tspan
+         id="tspan11000"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:2.02635px;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ffffff;fill-opacity:1;stroke-width:0.253293"
+         x="1.1804485"
+         y="5.6681523">Chipero</tspan></text>
+  </g>
+</svg>

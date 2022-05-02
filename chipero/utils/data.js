@@ -11,11 +11,7 @@ export const navLinks = [
       path: "/products",
     },
     {
-      name: "Blog",
-      path: "/blog",
-    },
-    {
-      name: "Contact Us",
-      path: "#contact",
-    },
+      name: "Videos",
+      path: "/videos",
+    },  
   ];
