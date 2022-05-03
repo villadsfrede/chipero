@@ -5,6 +5,7 @@ import styles from '../styles/Home.module.css'
 import NavBar from "../components/NavBar"
 import ImageSlider from "../components/ImageSlider"
 import { SliderData } from "../components/SliderData";
+import Videos from "../components/Videos"
 
 export default function Home() {
   return (
@@ -18,7 +19,7 @@ export default function Home() {
       <main className={styles.main}>
         <NavBar/>
         <ImageSlider slides={SliderData}/>
-        test
+        <Videos />
       </main>
     </div>
   )

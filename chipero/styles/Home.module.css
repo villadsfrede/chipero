@@ -58,7 +58,7 @@
 .title {
   margin: 0;
   line-height: 1.15;
-  font-size: 4rem;
+  font-size: 2rem;
 }
 
 .title,
@@ -167,6 +167,23 @@
   opacity: 1;
   transition-duration: 1s;
   transform: scale(1.08);
+}
+
+.videos {
+  background-color: #ED1C24;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
+
+.videoGrid {
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: auto auto;
+  grid-row-gap: 2rem;
+  justify-content: center;
 }
 
 @media (max-width: 600px) {
