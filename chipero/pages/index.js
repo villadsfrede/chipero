@@ -6,6 +6,7 @@ import NavBar from "../components/NavBar"
 import ImageSlider from "../components/ImageSlider"
 import { SliderData } from "../components/SliderData";
 import Videos from "../components/Videos"
+import ProductBar from "../components/ProductBar"
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <main className={styles.main}>
         <NavBar/>
         <ImageSlider slides={SliderData}/>
+        <ProductBar />
         <Videos />
       </main>
     </div>

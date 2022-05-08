@@ -2,7 +2,6 @@
 }
 
 .main {
-  min-height: 100vh;
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -184,6 +183,104 @@
   grid-template-rows: auto auto;
   grid-row-gap: 2rem;
   justify-content: center;
+}
+
+.productBar {
+  display: flex;
+  background-color: #000000;
+  width: 100%;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.imageProduct {
+  display: block;
+  cursor: pointer;
+}
+
+.prodhidden {
+  display: none;
+}
+
+.prodactive {
+  background-color: #ffffff;
+  display: flex;
+  margin: 5rem;
+  padding: 2rem;
+}
+
+.prodinfo {
+  display: flex;
+  flex-direction: column;
+}
+
+.Collapsible {
+  color: #000000;
+  text-align: center;
+  display: flex;
+  justify-content: space-evenly;
+  border-bottom: 3px solid #000000;
+  margin: 1rem;
+}
+
+.collapcontent > div{
+  color: #000000;
+  overflow: hidden;
+  width: 18rem;
+  line-height: 2.5rem;
+}
+
+.collapcontent {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+
+.btn {
+  border: none;
+  background-color: inherit;
+  font-size: 1.5rem;
+}
+
+.prodinfo > h1 {
+  color: #000000;
+  padding: 2rem;
+}
+
+.imageprod {
+  
+}
+
+.nutritabel {
+  font-size: 0.7rem;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 15rem;
+}
+
+.nutritabel > table {
+  border: 2px solid #000000;
+}
+
+.divtabel {
+  align-items: center;
+  justify-content: center;
+}
+
+.prodGrid {
+  display: grid;
+  background-color: white;
+  grid-template-columns: 30% 30% 30%;
+  justify-content: space-evenly;
+}
+
+.prodFlex {
+  display: flex;
+  color: #000000;
+  flex-direction: column;
+  background-color: #fff608;
+  margin: 1rem;
+  padding: 1rem;
 }
 
 @media (max-width: 600px) {
