@@ -7,6 +7,7 @@ import ImageSlider from "../components/ImageSlider"
 import { SliderData } from "../components/SliderData";
 import Videos from "../components/Videos"
 import ProductBar from "../components/ProductBar"
+import Footer from "../components/Footer"
 
 export default function Home() {
   return (
@@ -22,6 +23,7 @@ export default function Home() {
         <ImageSlider slides={SliderData}/>
         <ProductBar />
         <Videos />
+        <Footer />
       </main>
     </div>
   )

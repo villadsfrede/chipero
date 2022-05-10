@@ -31,9 +31,10 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
-  justify-content: center;
+  color: white;
+  justify-content: space-between;
   align-items: center;
+  gap: 1rem;
 }
 
 .footer a {
@@ -129,6 +130,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin-bottom: 5rem;
 }
 
 .imageslide {
@@ -191,6 +193,7 @@
   width: 100%;
   justify-content: center;
   padding: 2rem;
+  margin-bottom: 3rem;
 }
 
 .imageProduct {
@@ -239,6 +242,17 @@
   border: none;
   background-color: inherit;
   font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.buybtn {
+  border: none;
+  background-color: #ED1C24;
+  font-size: 1.5rem;
+  color: white;
+  margin: 1rem;
+  padding: 1.5rem;
+  cursor: pointer;
 }
 
 .prodinfo > h1 {
@@ -272,15 +286,27 @@
   background-color: white;
   grid-template-columns: 30% 30% 30%;
   justify-content: space-evenly;
+  margin: 3rem;
 }
 
 .prodFlex {
   display: flex;
-  color: #000000;
+  color: white;
   flex-direction: column;
-  background-color: #fff608;
+  border: 4px solid #ffffff;
+  background-color: #000000;
   margin: 1rem;
   padding: 1rem;
+}
+
+.videosection {
+  background-color: #ED1C24;
+  padding: 2rem;
+}
+
+.videosectiongrid {
+  display: flex;
+  flex-direction: row;
 }
 
 @media (max-width: 600px) {

@@ -28,7 +28,7 @@ const ImageSlider = ({slides}) => {
           {SliderData.map((slide, index) => {
               return (
                 <div className={index === current ? styles.slideactive : styles.slide} key={index}> 
-                    {index === current && (<Image src={slide.image} height={600} width={1000} className={styles.imageslide}/>)}
+                    {index === current && (<Image src={slide.image} height={675} width={1200} className={styles.imageslide}/>)}
                 </div>
               )
           })}

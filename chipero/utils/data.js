@@ -3,15 +3,11 @@ export const navLinks = [
      path: "/" 
     },
     {
-      name: "About",
-      path: "/about",
-    },
-    {
       name: "Products",
       path: "/products",
     },
     {
       name: "Videos",
-      path: "/videos",
+      path: "/videospage",
     },  
   ];

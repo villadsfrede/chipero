@@ -5,10 +5,17 @@ import styles from '../../styles/Home.module.css'
 import Head from 'next/head'
 import Image from "next/Image"
 import Collapsible from "../../components/Nutrition"
+import Footer from '../../components/Footer'
 
 const ProductPage = () => {
   const router = useRouter()
   const { pid } = router.query
+
+  const handleClick = () => {
+      alert("Dette produkt er udsolgt!")
+  }
+
+
 
   return (
     <div className={styles.container}>
@@ -64,15 +71,14 @@ const ProductPage = () => {
                                     </tr>
                                 </table>
                             </div>
-                        
-                
-                        
                         </Collapsible>
-                    </div>
+                        <button type="button" className={styles.buybtn} onClick={handleClick}>Køb - 15 kr.</button>
+                    </div>         
                 </div>
               )
           })}
         </div>
+        <Footer />
       </main>
     </div>
   )

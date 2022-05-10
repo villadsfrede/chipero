@@ -4,6 +4,7 @@ import Link from 'next/link'
 import styles from '../../styles/Home.module.css'
 import NavBar from "../../components/NavBar"
 import {ProductData, productData} from "../../components/ProductData"
+import Footer from "../../components/Footer"
 
 export default function Home() {
   return (
@@ -32,6 +33,7 @@ export default function Home() {
                 )
             })}
         </div>
+        <Footer />
       </main>
     </div>
   )

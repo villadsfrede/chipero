@@ -10,7 +10,7 @@ export default function Header() {
       <div>
 
       </div>
-      <nav className={styles.navbar}>
+      <nav className={styles.navbar}> 
         {navLinks.map((link, index) => {
           return (
             <ul key={index}>
