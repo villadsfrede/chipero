@@ -8,6 +8,9 @@ import { SliderData } from "../components/SliderData";
 import Videos from "../components/Videos"
 import ProductBar from "../components/ProductBar"
 import Footer from "../components/Footer"
+import { Player } from 'video-react';
+import "../node_modules/video-react/dist/video-react.css";
+import ReactPlayer from 'react-player'
 
 export default function videospage() {
   return (
@@ -21,13 +24,11 @@ export default function videospage() {
       <main className={styles.main}>
         <NavBar/>
             <div className={styles.videosection}>
-              <video>
-
-              </video>
+              <ReactPlayer url='https://youtu.be/tJiI8Bi7F5s'/>
               <div className={styles.videosectiongrid}>
-                <p>skitse video</p>
-                <p>skitse video</p>
-                <p>skitse video</p>
+                <h2>skitse video</h2>
+                <h2>skitse video</h2>
+                <h2>skitse video</h2>
               </div>
             </div>
         <Footer />
